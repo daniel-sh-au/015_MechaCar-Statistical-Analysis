@@ -17,6 +17,6 @@ To determine if this linear model effectively predicts the mpg of MechaCar proto
 
 | Total Summary Dataframe | Lot Summary Dataframe |
 | ----------------------- | --------------------- |
-| ![d2_total_summary.png]https://github.com/daniel-sh-au/UofT_DataBC_Module15_MechaCar_Statistical_Analysis/blob/main/Resources/d2_total_summary.png) | ![d2_lot_summary.png](https://github.com/daniel-sh-au/UofT_DataBC_Module15_MechaCar_Statistical_Analysis/blob/main/Resources/d2_lot_summary.png) |
+| ![d2_total_summary.png](https://github.com/daniel-sh-au/UofT_DataBC_Module15_MechaCar_Statistical_Analysis/blob/main/Resources/d2_total_summary.png) | ![d2_lot_summary.png](https://github.com/daniel-sh-au/UofT_DataBC_Module15_MechaCar_Statistical_Analysis/blob/main/Resources/d2_lot_summary.png) |
 
 **The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**  
