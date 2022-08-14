@@ -27,15 +27,7 @@ In the total summary dataframe, it was observed that the total variance for all 
 ![d3_t_test.png](https://github.com/daniel-sh-au/UofT_DataBC_Module15_MechaCar_Statistical_Analysis/blob/main/Resources/d3_t_test.png)
 
 **Summarize your interpretation and findings for the t-test results**  
-From the above screenshot, analyzing the p-values across all and for each manufacturing lot can indicate if the PSI's are statistically different from the population mean of 1,500 pounds per square inch; If the p-value is less than 0.05, we can reject the null hypothesis and conclude that the means are statistically different. From the t-test accross all manufacturing lots, we found that the p-value was 0.06. From the t-test on each manufacturing lot, we found that the p-values for Lots 1 to 3 were 1, 0.61, and 0.04, respectfully. Therefore, we can conclude for only Lot 3, which had a p-value of less than 0.05, we have sufficient evidence to reject the null hypothesis and state that Lot 3's mean is statistically different than from the population mean of 1,500. 
+From the above screenshot, analyzing the p-values across all and for each manufacturing lot can indicate if the PSI's are statistically different from the population mean of 1,500 pounds per square inch; If the p-value is less than 0.05, we can reject the null hypothesis and conclude that the means are statistically different. From the t-test accross all manufacturing lots, we found that the p-value was 0.06. From the t-test on each manufacturing lot, we found that the p-values for Lots 1 to 3 were 1, 0.61, and 0.04, respectfully. Therefore, we can conclude for only Lot 3, which had a p-value of less than 0.05, we have sufficient evidence to reject the null hypothesis and state that Lot 3's mean is statistically different than the population mean of 1,500. 
 
 ## Deliverable 4: Study Design: MechaCar vs Competition
-
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
-
-linear regression (not random: p-value, effective prediction: r-sqaured)
-summary - mean, median, variance, stdev
-t-test (means are different, p-value)
+When comparing MechaCar against future competition, two important metrics for consumers are vehicle cost and fuel efficiency. Specifically, we would want to determine the correlation between cost and fuel efficiency for MechaCar and their competitor's cars. Thus, we would want to analyze the slope of the linear model. The null hypothesis would state that the slope of the linear model is zero while the alternative hypothesis would state that the slope of the linear model is not zero. Linear regression would be the appropriate statistical test to perform because we would want to observe the potential positive/negative correlation between vehicle cost and fuel efficiency for different car brands. In addition, the p-value from the linear model would be used to either reject the null hypothesis or to fail to reject the null hypothesis. Finally, the r-squared value can provide the effectiveness of the linear model. To successfully perform a linear regression, the data must be numerical, continuous, and follow a linear pattern. Variability must also exist in the independent variable and the residual error should be normally distributed. 
