@@ -13,5 +13,10 @@ Since the p-value for the linear regression model is 5.34e-11, which is much sma
 **Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**  
 To determine if this linear model effectively predicts the mpg of MechaCar prototypes, we must analysis the r-squared value. From the above screenshot, the r-squared value is 0.7149 which means that roughly 71.5% of the variability of mpg is explained by this linear model. Therefore, this linear model can predict the mpg of MechaCar prototypes effectively. 
 
+## Summary Statistics on Suspension Coils
 
+| Total Summary Dataframe | Lot Summary Dataframe |
+| ----------------------- | --------------------- |
+| ![d2_total_summary.png]https://github.com/daniel-sh-au/UofT_DataBC_Module15_MechaCar_Statistical_Analysis/blob/main/Resources/d2_total_summary.png) | ![d2_lot_summary.png](https://github.com/daniel-sh-au/UofT_DataBC_Module15_MechaCar_Statistical_Analysis/blob/main/Resources/d2_lot_summary.png) |
 
+**The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?**  
