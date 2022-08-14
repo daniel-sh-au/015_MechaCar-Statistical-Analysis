@@ -2,7 +2,7 @@
 
 ## Linear Regression to Predict MPG
 
-| ![d1_linear_regression.png](https://github.com/daniel-sh-au/UofT_DataBC_Module15_MechaCar_Statistical_Analysis/blob/main/Resources/d1_linear_regression.png) |
+![d1_linear_regression.png](https://github.com/daniel-sh-au/UofT_DataBC_Module15_MechaCar_Statistical_Analysis/blob/main/Resources/d1_linear_regression.png)
 
 **Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**  
 The vehicle_length and ground_clearance (and Intercept) variables were statistically unlikely to provide random amounts of variance to the mpg value since their p-values were less than 0.05. 
@@ -24,7 +24,7 @@ In the total summary dataframe, it was observed that the total variance for all 
 
 ## T-Tests on Suspension Coils
 
-| ![d3_t_test.png](https://github.com/daniel-sh-au/UofT_DataBC_Module15_MechaCar_Statistical_Analysis/blob/main/Resources/d3_t_test.png) |
+![d3_t_test.png](https://github.com/daniel-sh-au/UofT_DataBC_Module15_MechaCar_Statistical_Analysis/blob/main/Resources/d3_t_test.png)
 
-**Summarize your interpretation and findings for the t-test results**
-From the above screenshot, analyzing the p-values across all and for each manufacturing lot can indicate if the PSI's are statistically different from the population mean of 1,500 pounds per square inch; If the p-value is less than 0.05, we can reject the null hypothesis and conclude that the means are statistically different. From the t-test accross all manufacturing lots, we found that the p-value was 0.06. From the t-test on each manufacturing lot, we found that the p-values for Lots 1 to 3 were 1, 0.61, and 0.04, respectfully. Therefore, we can conclude for only Lot 3, which had a p-value of less than 0.05, that we have sufficient evidence to reject the null hypothesis and state that the means are statistically different. 
+**Summarize your interpretation and findings for the t-test results**  
+From the above screenshot, analyzing the p-values across all and for each manufacturing lot can indicate if the PSI's are statistically different from the population mean of 1,500 pounds per square inch; If the p-value is less than 0.05, we can reject the null hypothesis and conclude that the means are statistically different. From the t-test accross all manufacturing lots, we found that the p-value was 0.06. From the t-test on each manufacturing lot, we found that the p-values for Lots 1 to 3 were 1, 0.61, and 0.04, respectfully. Therefore, we can conclude for only Lot 3, which had a p-value of less than 0.05, we have sufficient evidence to reject the null hypothesis and state that Lot 3's mean is statistically different than from the population mean of 1,500. 
